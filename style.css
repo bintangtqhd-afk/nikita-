@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DFD0B8;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+
+.navbar h3{
+    font-family: 'monad';
+}
+
+.navigasi ul{
+    display:flex;
+    gap: 5vh;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+.navigasi a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+}
+
+.photo img{
+    width: 450px;
+    height: auto;
+}
+
+.penjelasan{
+    width: 60%;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-right: 5vh;
+}
+
+.footer{
+    height: 80px;
+    margin-top: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #DFD0B8;
+}
